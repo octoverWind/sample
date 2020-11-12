@@ -1,0 +1,80 @@
+header {
+  width: 100%;
+  height: 50px;
+  background-color: rgba(34, 49, 52, 0.9);
+  opacity: 0.5;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  
+}
+
+.header-left {
+  font-family: 'Courier New', Courier, monospace;
+  padding-top: 15px;
+  font-size: 15px;
+  font-weight: 1000;
+  color: palegoldenrod;
+}
+
+body {
+  background-color: rgb(237, 245, 242);
+}
+img {
+  width: 70%;
+}
+.logo {
+  font-size: 80px;
+  color: black;
+  display: inline-block;
+  padding: 20px 0;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+.main {
+  text-align: center;
+}
+
+.menu-item {
+  display: inline-block;
+  width: 40%;
+  padding: 20px;
+  margin-top: 40px;
+}
+input {
+  margin-left: 20px;
+  margin-right: 10px;
+  padding: 5px;
+  text-align: center;
+  width: 60px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+input[type="submit"] {
+  
+  width: 160px;
+  height: 48px;
+  line-height: 48px;
+  padding: 0 20px;
+  border-radius: 30px;
+  color: black;
+  background-color: rgb(96, 192, 230);
+  font-size: 15px;
+}
+
+.order {
+  text-align: center;
+  background-color: #b1c4ca;
+  height: 610px;
+  width: 600px;
+  margin: auto;
+  padding: 20px;
+  font-size: 19px;
+  }
+
+.order-back {
+  opacity: 0.9;
+  background-image: url(https://tabelog.com/imgview/original?id=r4258163745007)
+}
